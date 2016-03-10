@@ -9,19 +9,8 @@ public class SoundTest {
 		printSound(new Duck());
 	}
 
-	public static void printSound(Object obj) {
-		String sound = null;
-		
-		if(obj instanceof Cat){
-			sound = ((Cat)obj).sound();
-		}else if(obj instanceof Dog){
-			sound = ((Dog)obj).sound();
-		}else if(obj instanceof Sparrow){
-			sound = ((Sparrow)obj).sound();
-		}else if(obj instanceof Duck){
-			sound = ((Duck)obj).sound();
-		}
-		System.out.println(sound);
+	public static void printSound(Soundable soundable) {
+		System.out.println(soundable.sound());
 	}
 
 }

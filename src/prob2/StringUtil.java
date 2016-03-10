@@ -12,6 +12,13 @@ public class StringUtil {
     	}
     	
     	return s;
+    	
+//    	선생님 방법
+//    	StringBuffer sb = new StringBuffer(str[0]);
+//    	for(int i=1; i<str.length; i++){
+//    		sb.append(str[i]);
+//    	}
+//    	return sb.toString();
     }
 
     public static void main(String args[])  {         
