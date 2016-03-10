@@ -1,11 +1,7 @@
 package prob5;
 
-public class Marine {
-	
-	// 현재 위치
-	private int x;
-	private int y; 
-	
+public class Marine extends Unit{
+
 	void move(int x, int y) { 
 		/* 지정된 위치로 이동 */ 
 	}

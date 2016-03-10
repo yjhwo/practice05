@@ -1,10 +1,6 @@
 package prob5;
 
-public class Dropship {
-	
-	// 현재 위치
-	private int x;
-	private int y; 
+public class Dropship extends Unit{
 	
 	void move(int x, int y) {
 		/* 지정된 위치로 이동 */ 
@@ -21,4 +17,6 @@ public class Dropship {
 	void unload() {
 		/* 선택된 대상을 내린다.*/ 
 	}
+
+
 }
