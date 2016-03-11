@@ -11,6 +11,10 @@ public class PrintTest {
 		printer.println( 5.7 );
 		printer.println( "홍길동" );
 		
+		printer.printObjects("1");
+		printer.printObjects("2", 10);
+		printer.printObjects("2", 10, new Printer());
+		
 	}
 
 }
